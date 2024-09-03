@@ -1,0 +1,12 @@
+[programs.devnet]
+raffle = "EsBdqM8dL2yH3g3t2BKKLttYnertN7sx4RsVp2Je9szi"
+
+[registry]
+url = "https://anchor.projectserum.com"
+
+[provider]
+cluster = "devnet"
+wallet = "/home/ubuntu/apollo/test-keypair.json"
+
+[scripts]
+test = "yarn run ts-mocha -p ./tsconfig.json -t 1000000 tests/**/*.ts"
