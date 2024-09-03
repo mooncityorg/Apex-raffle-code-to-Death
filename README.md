@@ -3,7 +3,6 @@
 ## Requirements
 
 ### Payment method
-- SOL
 - $PREY (SPL token)
 
 ### Reward Type
